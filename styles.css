@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+body {
+  background-color: #0C172A;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nft-card {
+  background-color: #15273F;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #2E4058;
+  color: #FFFFFF;
+}
+
+.description {
+  color: #8297B7;
+  font-weight: 300;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
+#nft-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+#eth-cost {
+  color: #41D5D3;
+  font-size: 16px;
+  padding: 0px 8px;
+  font-weight: 500;
+}
+
+#time-left {
+  color: #8EA9D5;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0 8px;
+}
+
+.card-footer  {
+    color: #7C91B1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-footer h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
