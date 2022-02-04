@@ -14,10 +14,25 @@ body {
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
-
+  max-width: 300px;
+  max-height: 650px;
 
   display: flex;
   flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-icon {
+  visibility: hidden;
+  opacity: 0;
+  width: 3em;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .content {
@@ -37,6 +52,22 @@ body {
 #nft-image {
   width: 100%;
   border-radius: 10px;
+}
+
+.image-container:hover {
+  cursor: pointer;
+}
+
+.image-container:hover .view-icon{
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.title:hover {
+  color: #41D5D3;
+  cursor: pointer;
 }
 
 .content-footer {
@@ -80,4 +111,12 @@ body {
 .card-footer h2 {
   font-size: 18px;
   font-weight: 300;
+}
+
+.me-mofo {
+  color: #FFFFFF;
+}
+
+.me-mofo:hover {
+  color: #41D5D3;
 }
